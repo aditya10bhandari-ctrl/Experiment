@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amazon Website</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f0f0f0;
+            text-align: center;
+        }
+        img {
+            border: 2px solid #333;
+            margin-top: 15px;
+        }
+        ul {
+            list-style: none;
+            margin: 20px 0;
+            padding: 0;
+            background: #333;
+        }
+        li {
+            display: inline-block;
+            position: relative;
+        }
+        li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+        li a:hover {
+            background: #555;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background: white;
+            min-width: 120px;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 8px 10px;
+            display: block;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<h2>AMAZON WEBSITE</h2>
+<img src="image.png" width="300" height="200" alt="Amazon Image">
+
+<ul>
+    <li><a href="#">Home</a></li>
+    <li class="dropdown">
+        <a href="#">Laptop</a>
+        <div class="dropdown-content">
+            <a href="#">HP</a>
+            <a href="#">Dell</a>
+            <a href="#">Mac</a>
+            <a href="#">Lenovo</a>
+        </div>
+    </li>
+    <li class="dropdown">
+        <a href="#">Mobile</a>
+        <div class="dropdown-content">
+            <a href="#">Samsung</a>
+            <a href="#">Apple</a>
+            <a href="#">OnePlus</a>
+            <a href="#">Vivo</a>
+        </div>
+    </li>
+    <li class="dropdown">
+         <a href="#">Watch</a>
+         <div class="dropdown-content">
+            <a href="#">Titan</a>
+            <a href="#">Hamilton</a>
+            <a href="#">Ptek Philippe</a>
+            <a href="#">Rolex</a>
+        </div>
+        </li>
+    <li class="dropdown">
+        <a href="#">Bike</a>
+        <div class="dropdown-content">
+            <a href="#">Hero</a>
+            <a href="#">Honda</a>
+            <a href="#">Royal</a>
+            <a href="#">Yamaha</a>
+        </div>
+        </li>
+</ul>
+<div class="container">
+  <style>
+    body {
+      font-family: Arial;
+      background: #f2f2f2;
+      text-align: center;
+    }
+    h1 {
+      background: #222;
+      color: white;
+      padding: 10px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      width: 90%;
+      margin: 20px auto;
+    }
+    .section {
+      background: white;
+      border: 2px solid #888;
+      padding: 10px;
+    }
+    .section h2 {
+      background: #333;
+      color: white;
+      padding: 5px;
+      margin-top: 0;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 90%;
+    }
+    td {
+      border: 1px solid #aaa;
+      width: 25%;
+      padding: 10px;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+      display: block;
+      margin: 5px auto;
+    }
+    p {
+      margin: 5px 0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+    
+    <!-- Laptop Table -->
+    <div class="section">
+      <h2>Laptop</h2>
+      <table>
+        <tr>
+          <td><img src="https://m.media-amazon.com/images/I/41SFtItBkZL._SY300_SX300_QL70_FMwebp_.jpg" alt="HP"><p>HP ₹55,000</p></td>
+          <td><img src="https://m.media-amazon.com/images/I/41wdSMfF60L._SY300_SX300_QL70_FMwebp_.jpg" alt="Dell"><p>Dell ₹60,000</p></td>
+          <td><img src="https://m.media-amazon.com/images/I/51YTTw5zR4L._SY300_SX300_QL70_FMwebp_.jpg" alt="Lenovo"><p>Lenovo ₹48,000</p></td>
+         <td><img src="https://m.media-amazon.com/images/I/41yniWLSDvL._SY300_SX300_QL70_FMwebp_.jpg" alt="Mac"><p>Mac ₹50,000</p></td>
+        
+
+        </tr>
+
+      </table
+    </div>
+     <!-- Mobile Table -->
+    <div class="section">
+      <h2>Mobile</h2>
+      <table>
+        <tr>
+          <td><img src="yFVTwgKyQ3uuEf4DRx6imK.jpg" alt="Samsung"><p>Samsung ₹38,000</p></td>
+          <td><img src="e7ecb63f0979488baed84ebc05ce9170.jpeg" alt="Apple"><p>Apple ₹70,000</p></td>
+          <td><img src="OIP (1).webp" alt=""><p>Vivo ₹25,000</p></td>
+          <td><img src="Oneplus-11-5g-titan-black-128gb-8gb-ram-Front-Back-View.png" alt="One Plus"><p>OnePlus ₹35,000</p></td>
+        </tr>
+      </table>
+    </div>
+    <!-- Watch Table -->
+    <div class="section">
+      <h2>Watch</h2>
+      <table>
+        <tr>
+          <td><img src="b6493008-b519-45e1-ab38-4d1b7a68982c._CR0,0,300,300_PT0_SX300_V1.jpeg" alt="Titan"><p>Titan ₹18,000</p></td>
+          <td><img src="OIP (2).webp" alt="Hamilton"><p>Hamilton ₹20,000</p></td>
+          <td><img src="OIP (3).webp" alt="Ptek Philippe"><p>Ptek Philippe ₹3,000</p></td>
+          <td><img src="rolex-datejust-watch-3d-model-01.jpg" alt="Rolex"><p>Rolex ₹50,000</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Bike Table -->
+    <div class="section">
+      <h2>Bike</h2>
+      <table>
+        <tr>
+          <td><img src="OIP (4).webp" alt="Hero"><p>Hero ₹85,000</p></td>
+          <td><img src="f234f0bc80ae2fd8309c06e5cd4c4fca.jpg" alt="Honda"><p>Honda ₹95,000</p></td>
+          <td><img src="OIP (5).webp" alt="Royal"><p>Royal ₹1,20,000</p></td>
+          <td><img src="r15_darknight.avif" alt="Yamaha"><p>Yamaha ₹1,10,000</p></td>
+        </tr>
+      </table>
+    </div>
+</div>           
+</body>
+</html>
