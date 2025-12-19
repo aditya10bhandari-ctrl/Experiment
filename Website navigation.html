@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Navigation Menu</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+
+        
+        .output-container {
+            width: 90%;
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #333;
+            background-color: #fff;
+            padding: 10px;
+            
+            display: block; 
+        }
+
+        
+        .header-bar {
+            background-color: #ccc;
+            padding: 15px 0;
+            text-align: center;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #aaa;
+        }
+
+        .header-bar h1 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .header-bar span {
+            color: red;
+            font-weight: bold;
+        }
+
+        
+        
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 10px 0; 
+            
+            overflow: hidden; 
+            
+            
+        }
+        
+        
+        .nav-list li {
+            
+            float: left;
+            margin-right: 8px;
+            margin-bottom: 8px; 
+            display: block; 
+        }
+        
+        
+        .nav-list a {
+            text-decoration: none;
+            color: #333;
+            padding: 8px 15px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            font-weight: 500;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+            
+            
+            display: inline-block;
+        }
+
+        
+        .nav-primary a {
+            background-color: #b3e0e9; 
+            border: 1px solid #8ec8d4;
+        }
+
+        .nav-secondary a {
+            background-color: #a0f0a0; 
+            border: 1px solid #78c078;
+        }
+
+        
+        
+        .nav-secondary {
+            clear: both; 
+        }
+
+        
+        .inline-text {
+            color: gray;
+            font-size: 0.8em;
+            margin-top: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h2>Output</h2>
+
+    <div class="output-container">
+        
+        
+        <div class="header-bar">
+            <h1>My <span>Website</span> Navigation</h1>
+        </div>
+
+        
+        <ul class="nav-list nav-primary">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        
+        <ul class="nav-list nav-secondary">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Messages</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+        
+
+    </div>
+
+</body>
+</html>
