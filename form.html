@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Info</title>
+    <style>
+body{
+ background-color:#f2f2f2;
+ font-family:Arial;
+}
+
+.formBox{
+ width:520px;
+ background-color:white;
+ margin:80px auto;
+ padding:25px;
+ border:1px solid #aaa;
+}
+
+h2{
+ text-align:center;
+ color:#003366;
+}
+
+label{
+ display:block;
+ margin-top:15px;
+ font-size:15px;
+}
+
+input{
+ width:95%;
+ padding:8px;
+ margin-top:5px;
+}
+
+.submitBtn{
+ margin-top:20px;
+ padding:10px 20px;
+ background-color:#003366;
+ color:white;
+ border:none;
+}
+
+.backLink{
+ display:block;
+ margin-top:20px;
+ text-align:center;
+ text-decoration:none;
+ color:#003366;
+}
+</style>
+</head>
+
+<body>
+
+<div class="formBox">
+
+<h2>Personal Information</h2>
+
+<!-- form with action to info.html -->
+<form action="info.html">
+
+<label>Full Name :</label>
+<input type="text" required>
+
+<label>Roll Number :</label>
+<input type="text" required>
+
+<label>Branch :</label>
+<input type="text" required>
+
+<label>Email :</label>
+<input type="email" required>
+
+<label>Mobile Number :</label>
+<input type="text" required>
+
+<!-- submit button -->
+<input type="submit" value="Submit" class="submitBtn">
+
+</form>
+
+<a href="info.html" class="backLink">← Back to Event Page</a>
+
+</div>
+
+</body>
+</html>

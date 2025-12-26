@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>event invite</title>
-
-<style>
-
-/* page background */
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Invitation</title>
+    <style>
 body{
  background-color:#e6e6e6;
  font-family:Arial;
 }
 
-/* main box */
 .mainBox{
  width:500px;
  background-color:white;
@@ -20,66 +18,58 @@ body{
  border:1px solid #aaa;
 }
 
-/* heading */
 h1{
  text-align:center;
  color:#003366;
 }
 
-/* sub heading */
 h3{
  text-align:center;
  color:#444;
 }
 
-/* event info */
 .infoPart{
  font-size:17px;
  margin-top:20px;
  line-height:28px;
 }
 
-/* button style */
 .btnAttend{
- margin-top:20px;
- margin-left:170px;   /* manual center */
- padding:10px 20px;
+ display:block;
+ width:150px;
+ text-align:center;
+ margin:20px auto;
+ padding:10px;
  background-color:#003366;
  color:white;
- border:none;
+ text-decoration:none;   /* remove underline */
 }
 
-/* footer text */
 .footerTxt{
  text-align:center;
  font-size:13px;
  color:gray;
  margin-top:20px;
 }
-
 </style>
 </head>
 
 <body>
 
-<!-- main container -->
 <div class="mainBox">
 
 <h1>Event Invitation</h1>
-
 <h3>Annual Tech Seminar</h3>
 
-<!-- details -->
 <div class="infoPart">
 <p><b>Date :</b> 15 March 2025</p>
 <p><b>Time :</b> 10:00 AM</p>
 <p><b>Venue :</b> Seminar Hall , AKTU</p>
 </div>
 
-<!-- button -->
-<button class="btnAttend">Attend Event</button>
+<!-- link button -->
+<a href="form.html" class="btnAttend">Attend Event</a>
 
-<!-- footer -->
 <p class="footerTxt">
 Organized by Mechanical Department
 </p>
